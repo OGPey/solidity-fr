@@ -46,13 +46,8 @@ A la fin du temps de vote, la ``winningProposal()`` (proposition gagnante) retou
         // Un tableau dynamique de structs `Proposal`.
         Proposal[] public proposals;
 
-<<<<<<< HEAD
         /// Créé un nouveau bulletin pour choisir l'un des `proposalNames`.
         constructor(bytes32[] memory proposalNames) {
-=======
-        /// Create a new ballot to choose one of `proposalNames`.
-        constructor(bytes32[] memory proposalNames) {
->>>>>>> 47d77931747aba8e364452537d989b795df7ca04
             chairperson = msg.sender;
             voters[chairperson].weight = 1;
 
